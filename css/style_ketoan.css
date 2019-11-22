@@ -12,7 +12,7 @@
 
 /* NavBar */
 .navbar-container {
-    background-color: #292c47;
+    background-color: #dc3545;
 }
 
 .navbav {
@@ -20,7 +20,7 @@
 }
 
 .navbav-brand img {
-    height: 20px;
+    height: 40px;
 }
 
 .navbav-toggler {
@@ -32,16 +32,15 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #bbb;
-    font-size: 14px;
+    color: #fff;
+    font-size: px;
     font-weight: bold;
-    text-transform: uppercase;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #fff;
+    color: rgb(65, 65, 65);
 }
 
 /* Header */
