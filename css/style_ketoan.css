@@ -56,6 +56,8 @@ header {
     width: 100%;
     text-align: center;
     min-height: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .carousel-item {
@@ -69,3 +71,68 @@ header {
   }
 
 /* End Header Slider */
+/* Start Info */
+.project-container {
+    overflow: hidden;
+    border-left: 10px solid white;
+}
+
+.project {
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    min-height: 460px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.2);
+}
+
+.project .overlay {
+    align-items: center;
+    background-color: #dc3545;
+    color: white;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    transition: opacity 0.4s ease-in-out;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.project:hover .overlay {
+    opacity: 0.9;
+}
+
+/* End Info */
+/* Start CSS Footer */
+
+.pre-footer {
+    background-color: #333659;
+}
+
+footer {
+    background-color: #2b2e4a;
+}
+
+footer .text-muted,
+.pre-footer .text-muted {
+    color: #bbb !important;
+}
+
+footer .text-muted,
+.pre-footer .text-muted {
+    color: #bbb !important;
+}
+
+footer p,
+.pre-footer p {
+    margin: 0;
+}
+
+/* End CSS Footer */
