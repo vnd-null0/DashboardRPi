@@ -52,6 +52,10 @@
 
 header {
     padding-top: 5.5rem;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    min-height: auto;
 }
 
 .carousel-item {
