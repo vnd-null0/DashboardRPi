@@ -1,4 +1,8 @@
 /* General Style for Landing Page Kế Toán MISA */
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .btn {
     padding: 0.75rem 2rem;
@@ -10,7 +14,7 @@
     width: 40px;
 }
 
-/* NavBar */
+/* Start NavBar */
 .navbar-container {
     background-color: #dc3545;
 }
@@ -33,21 +37,31 @@
 
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
-    font-size: px;
+    font-size: 18px;
     font-weight: bold;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: rgb(65, 65, 65);
+    color: #000000;
+}
+/* End NavBar */
+
+/* Start Header Slider */
+
+header {
+    padding-top: 5.5rem;
 }
 
-/* Header */
-header {
-    background-image: url('https://pixelbuddha.net/livepreview/activebox/images/banner.jpg');
-    background-repeat: no-repeat;
+.carousel-item {
+    height: 450px;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: center center;
-    padding-top: 10rem;
-}
+  }
+
+/* End Header Slider */

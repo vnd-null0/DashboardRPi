@@ -6,19 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Phần Mềm Kế Toán Doanh Nghiệp MISA</title>
     <link rel="icon" type="img/png" href="img/Logo_MISA.jpg">
-    <link rel="stylesheet" href="css/style_ketoan.css" type="text/css" media="all">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css'>
+    
+    <!-- font-awesome -->
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'>
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'>
-    <link rel="stylesheet" href="css/style_ketoan.css">
+    <link rel="stylesheet" href="css/style_ketoan.css" type="text/css" media="all">
 
 </head>
 <body>
-    <!-- Header -->
+    <!-- Start Header -->
     <header class="container-fluid">
-        <div class="row">
-            <div class="container py-5 text-white">
-                <div class="row">
-                    <div class="col-md-12 text-center">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+                    <div class="carousel-caption d-none d-md-block">
                         <h1 class="display-5 text-uppercase font-weight-bold">
                             MISA - PHẦN MỀM KẾ TOÁN DOANH NGHIỆP
                         </h1>
@@ -26,9 +34,30 @@
                         <a href="#contact" class="btn btn-danger rounded-0 my-5">ĐĂNG KÝ DÙNG THỬ</a>
                     </div>
                 </div>
+            <!-- Slide Two - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('img/Hoa_don_dien_tu_meInvoice_lg_size.jpg')">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
             </div>
+            <!-- Slide Three - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('img/MISA SME 2019.PNG')">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
         </div>
     </header>
+    <!-- End Header -->
+
     <div class="container-fluid navbar-container fixed-top">
         <div class="row">
             <div class="container">
@@ -66,25 +95,49 @@
             <div class="container text-center" style="width: 15%; height: 4px; background-color:#e8e8e8;"></div>
 		</div>
         <div class="row">
-            <div class="col-sm">
-			    <i class="fas text-danger fa-pencil-alt fa-3x py-4"></i>
-			    <h6 class="text-uppercase">CHÍNH XÁC</h6>
-			    <p class="text-muted">Từng nghiệp vụ đều được thiết kế theo đúng thông tư 133/2016/TT-BTC và 200/2014/TT-BTC</p>
+            <div class="col-lg-4 col-md-6">
+			    <i class="fas text-danger fa-check-circle fa-3x py-4"></i>
+			    <h6 class="text-uppercase">Khả năng tương thích cao</h6>
+                <p class="text-muted" style="text-align: left;" >Phần mềm misa được thiết kế đóng gói tiêu chuẩn, 
+                áp dụng cho tất cả các nghành xây dựng, thương mại, dịch vụ. Phần mềm được sử dụng rộng rãi trên khắp các công ty, 
+                thực tế đã áp dúng rất tốt cho tất cả các lĩnh vực kinh doanh tại Việt Nam
+                </p>
             </div>
-            <div class="col-sm">
-			    <i class="fas text-danger fa-shipping-fast fa-3x py-4"></i>
-			    <h6 class="text-uppercase">NHANH CHÓNG</h6>
-			    <p class="text-muted">Kiểm tra, đối chiếu chứng tử, sổ sách, kết chuyển lãi lỗ, lập BCTC tự động sau khoảng 5 phút</p>
+            <div class="col-lg-4 col-md-6">
+			    <i class="fas text-danger fa-star fa-3x py-4"></i>
+			    <h6 class="text-uppercase">Sử dụng thật dễ dàng</h6>
+			    <p class="text-muted" style="text-align: left;">Giao diện người dùng trực quan cho việc quản trị, 
+                cập nhật thông tin dễ dàng, thay đổi thông tin chỉ với vài nhấp chuột. 
+                Phần mềm cài đặt và sử dụng dễ dàng cho như các ứng dụng văn phòng khác. 
+                Thao tác đơn giản, hiệu suất cao</p>
             </div>
-            <div class="col-sm">
-			    <i class="fas text-danger fa-money-bill fa-3x py-4"></i>
-			    <h6 class="text-uppercase">ĐÁP ỨNG ĐẦY ĐỦ</h6>
-			    <p class="text-muted">Đáp ứng đầy đủ nghiệp vụ kế toán cho từng lĩnh vực: thương mại, dịch vụ, xây dựng, sản xuất</p>
+            <div class="col-lg-4 col-md-6">
+			    <i class="fas text-danger fa-cogs fa-3x py-4"></i>
+			    <h6 class="text-uppercase">Cơ chế phân quyền cao cấp</h6>
+			    <p class="text-muted" style="text-align: left;">Hệ thống quản trị được lập trình thông minh, giúp phân quyền giữa Giám Đốc, 
+                    Kế Toán Trưởng và nhân viên. Quản lý chứng từ, kho… thông minh hiệu quả. 
+                    Nâng cao tính bảo mật an toàn dữ liệu cho doanh nghiệp</p>
             </div>
-            <div class="col-sm">
-			    <i class="fas text-danger fa-desktop fa-3x py-4"></i>
-			    <h6 class="text-uppercase">TIẾT KIỆM</h6>
-			    <p class="text-muted">Giảm đến 80% thời gian, 90% sai sót so với làm kế toán theo phương pháp thông thường</p>
+            <div class="col-lg-4 col-md-6">
+			    <i class="fas text-danger fa-chart-bar fa-3x py-4"></i>
+			    <h6 class="text-uppercase">Hơn 25 năm kinh nghiệm</h6>
+                <p class="text-muted" style="text-align: left;">Phần mềm kế toán Misa đã được khách hàng tin tưởng sử dụng hơn 25 năm qua. 
+                Và số lượng công ty đăng ký sử dụng không ngừng tăng lên trong từng ngày phần nào chứng minh được năng lực của Misa
+            </p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+			    <i class="fas text-danger fa-upload fa-3x py-4"></i>
+			    <h6 class="text-uppercase">Nâng cấp thường xuyên</h6>
+                <p class="text-muted" style="text-align: left;">Phần mềm Misa cập nhật liên tục các thay đổi từ nghành thuế và kế toán. 
+                    Đảm bảo tiêu chí phù hợp, tương thích với hệ thống luật và hệ thống kinh doanh hiện tại. 
+                    Giúp doanh nghiệp tiết kiệm tiền, thời gian cho công việc quản lý.</p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+			    <i class="fas text-danger fa-copy fa-3x py-4"></i>
+			    <h6 class="text-uppercase">Cơ chế sao lưu thông minh</h6>
+                <p class="text-muted" style="text-align: left;">Phần mềm misa tự động sao lưu dữ liệu định kỳ, 
+                    giúp đảm bảo an toàn dữ liệu cho công ty. Đồng thời, có thể khôi phục lại dữ liệu ngay tức thì trên máy tính khác. 
+                    Đảm bảo hoạt động kinh doanh thông suốt và hiệu quả.</p>
 		    </div>
         </div>
     </div>
