@@ -16,7 +16,7 @@
 
 /* Start NavBar */
 .navbar-container {
-    background-color: #333659;
+    background-color: #dc3545;
 }
 
 .navbav {
@@ -113,11 +113,11 @@ header {
 /* Start CSS Footer */
 
 .pre-footer {
-    background-color: #333659;
+    background-color: #dc3545;
 }
 
 footer {
-    background-color: #2b2e4a;
+    background-color: #aa1322;
 }
 
 footer .text-muted,
