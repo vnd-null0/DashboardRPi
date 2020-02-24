@@ -8,6 +8,7 @@
     <link rel="icon" type="img/png" href="img/Logo_MISA.jpg">
     
     <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css">
     <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
     <!-- font-awesome -->
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'>
@@ -89,15 +90,24 @@
         </div>
     </div>
     
-    <div class="container py-5" id="consult">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-10 text-center">
-                <h2 class="font-weight-light text-capitalize">LIÊN HỆ MUA HÀNG</h2>
-                <h6 class="font-weight-bold">Vui lòng để lại thông tin, chúng tôi sẽ chủ động liên hệ lại!</h6>
-                <button class="btn btn-danger mt-4 text-uppercase rounded-0">LIÊN HỆ</button>
-            </div>
+    <section id="contact">
+        <h1 class="section-header">Liên Hệ</h1>
+        <div class="contact-wrapper">
+            <form class="form-horizonal" role="form" method="POST" action="contact.php">
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <input class="form-control" type="text" name="name" id="name" value="" placeholder="Họ & Tên">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <input class="form-control" type="email" name="email" id="email" value="" placeholder="Thông Tin Email">
+                    </div>
+                </div>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </form>
         </div>
-    </div>
+    </section>
     
     <!-- Start Pre-footer -->
     <div class="container-fluid text-center py-5 pre-footer text-white">
@@ -146,8 +156,8 @@
                 <div class="row">
                     <div class="col">
                         <p class="text-muted">
-                            Được phát triển với
-                            <i class="fa fa-heart text-danger"></i> by
+                            Được phát triển
+                            <i class="fa fa-heart text-danger"></i> bởi
                             <a target="_blank" href="#" class="text-white">Duy Võ</a>
                             <br/>Copyright@
                             <a target="_blank" href="#" class="text-white">DuyVo</a>
@@ -159,9 +169,12 @@
     </footer>
 
     <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
     <script rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+    <script src='js/js-custom_ketoan.js'></script>
 </body>
 </html>

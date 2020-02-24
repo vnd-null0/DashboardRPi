@@ -8,11 +8,13 @@
     <link rel="icon" type="img/png" href="img/Logo_MISA.jpg">
     
     <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css">
     <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
     <!-- font-awesome -->
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'>
     <!-- CSS Custom -->
     <link rel="stylesheet" href="css/style_ketoan.css" type="text/css" media="all">
+
 </head>
 <body>
     <!-- Start Header -->
@@ -169,8 +171,11 @@
                         </h2>
                         <p>Phần mềm hóa đơn điện tử MISA MEINVOICE</p>
                         <div>
-                            <a href="#demo" style="text-align: center;width: 170px;font-weight: bold;background-color: tomato;" class="btn btn-danger rounded-pill">Xem DEMO</a>
+                            <a href="#popup" id="#VideoLink" style="text-align: center;width: 170px;font-weight: bold;background-color: tomato;" class="btn btn-danger rounded-pill">Xem DEMO</a>
                             <a href="#chitiet" style="text-align: center;width: 170px;font-weight: bold;background-color: teal;" class="btn btn-danger rounded-pill">Chi Tiết</a>
+                            <div id="popup" class="mfp-hide embed-responsive embed-responsive-21by9">
+                                <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/0DYVBl4ij8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -210,7 +215,7 @@
     <div class="container py-5" id="consult">
         <div class="row justify-content-center">
             <div class="col-lg-8 col-10 text-center">
-                <h2 class="font-weight-light text-capitalize">LIÊN HỆ MUA HÀNG</h2>
+                <h3 class="font-weight-light text-capitalize">LIÊN HỆ TRIỂN KHAI PHẦN MỀM KẾ TOÁN MISA</h3>
                 <h6 class="font-weight-bold">Vui lòng để lại thông tin, chúng tôi sẽ chủ động liên hệ lại!</h6>
                 <button class="btn btn-danger mt-4 text-uppercase rounded-0">LIÊN HỆ</button>
             </div>
@@ -264,8 +269,8 @@
                 <div class="row">
                     <div class="col">
                         <p class="text-muted">
-                            Được phát triển với
-                            <i class="fa fa-heart text-danger"></i> by
+                            Được phát triển
+                            <i class="fa fa-heart text-danger"></i> bởi
                             <a target="_blank" href="#" class="text-white">Duy Võ</a>
                             <br/>Copyright@
                             <a target="_blank" href="#" class="text-white">DuyVo</a>
@@ -277,9 +282,12 @@
     </footer>
 
     <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
     <script rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+    <script src='js/js-custom_ketoan.js'></script>
 </body>
 </html>
